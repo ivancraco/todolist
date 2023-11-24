@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tab_text_1">Hoy</string>
+    <string name="tab_text_2">Mañana</string>
+    <string name="tab_text_3">Otras</string>
+    <string name="blank_fragment">Nada que hacer</string>
+    <string name="new_task">Nueva Tarea</string>
+    <string name="what_to_do">¿Qué hacer?</string>
+    <string name="input_task_name">Nombre de la tarea</string>
+    <string name="select_date">Fecha a realizar</string>
+    <string name="select_time">Hora a realizar</string>
+    <string name="notify_me">Notificarme</string>
+    <string name="create_task">Crear tarea</string>
+    <string name="error_params">Faltan campos por completar</string>
+    <string name="task_detail">Tarea</string>
+    <string name="question_eliminate_task">¿Seguro desea eliminar la tarea?</string>
+    <string name="accept_query">Aceptar</string>
+    <string name="cancel_query">Cancelar</string>
+    <string name="wrong_time">Hora incorrecta</string>
+    <string name="no_tasks_selected">Ninguna tarea seleccionada</string>
+    <string name="no_tasks_to_search">No hay tareas para buscar</string>
+    <string name="notification_description_1">¡Tarea por hacer ahora!</string>
+    <string name="notification_description_2">¡Nueva tarea por hacer ahora!</string>
+    <string name="nothing_to_do_icon">Icono de nada que hacer</string>
+    <string name="no_tasks_found">No se encontraron tareas</string>
+    <string name="error_message">Se ha producido un error</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_color">#272A2E</color>
+    <color name="primary_color_text">#DADADA</color>
+    <color name="splash_background_color">#18191A</color>
+    <color name="background_color">#18191A</color>
+    <color name="secondary_color">#43A36B</color>
+    <!--18191A 1f1f1f 191A19 00796B-->
+    <!--<color name="secondary_color">#00796B</color>-->
+    <color name="secondary_color_text">#DADADA</color>
+    <color name="black">#FF000000</color>
+    <color name="black_text">#191A19</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey">#A5A5A5</color>
+    <color name="grey_background">#BABABA</color>
+    <color name="red">#FF0000</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="mtrl_textinput_default_box_stroke_color" override="true">#505050</color>
+</resources>

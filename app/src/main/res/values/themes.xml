@@ -1,0 +1,80 @@
+<resources>
+
+    <style name="Theme.ToDo" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorOnPrimary">@color/primary_color_text</item>
+        <item name="colorSecondary">@color/secondary_color</item>
+        <item name="colorOnSecondary">@color/primary_color</item>
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:textCursorDrawable">@drawable/text_cursor</item>
+        <item name="actionModeBackground">@color/primary_color</item>
+        <item name="actionBarStyle">@style/Theme.MyApplication.ActionBar</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Title" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/primary_color_text</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/black_ops_one_regular</item>
+    </style>
+
+    <style name="Theme.ToDo.ThemeOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="actionBarStyle">@style/Theme.MyApplication.ActionBar</item>
+    </style>
+
+    <style name="Theme.ToDo.Aggregation" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorOnPrimary">@color/primary_color_text</item>
+        <item name="colorSecondary">@color/secondary_color</item>
+        <item name="colorOnSecondary">@color/primary_color</item>
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:textCursorDrawable">@drawable/text_cursor</item>
+        <item name="actionModeBackground">@color/primary_color</item>
+        <item name="actionBarStyle">@style/Theme.MyApplication.ActionBar</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+
+    <style name="Theme.ToDo.SplashTheme">
+        <item name="android:statusBarColor">@color/transparent</item>
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+        <item name="postSplashScreenTheme">@style/Theme.ToDo</item>
+    </style>
+
+    <style name="LoginTextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="boxStrokeColor">#505050</item>
+        <item name="boxStrokeWidth">2dp</item>
+    </style>
+
+    <style name="PickerDialog" parent="@style/Theme.AppCompat.Light.Dialog">
+        <item name="android:colorAccent">@color/primary_color</item>
+        <item name="android:buttonBarPositiveButtonStyle">@style/DialogButtonStyled</item>
+        <item name="android:buttonBarNegativeButtonStyle">@style/DialogButtonStyled</item>
+    </style>
+
+    <style name="DialogButtonStyled" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:textColor">@color/secondary_color</item>
+    </style>
+
+
+    <style name="AppTheme.ActionModeOverlay" parent="Widget.AppCompat.ActionMode">
+        <!-- Establece el fondo semi-transparente para el ActionMode -->
+        <item name="android:background">@color/primary_color</item>
+        <!-- Cambia el color del texto del ActionMode -->
+        <item name="android:titleTextStyle">@style/AppTheme.ActionModeOverlay.TextStyle</item>
+    </style>
+
+    <style name="AppTheme.ActionModeOverlay.TextStyle">
+        <item name="android:textColor">@color/primary_color_text</item>
+    </style>
+
+    <style name="Theme.MyApplication.ActionBar" parent="Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="elevation">0dp</item>
+    </style>
+
+    <style name="tab_text" parent="@android:style/TextAppearance.Widget.TabWidget">
+        <item name="android:fontFamily">@font/black_ops_one_regular</item>
+    </style>
+
+</resources>

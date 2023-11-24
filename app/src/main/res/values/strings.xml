@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name" translatable="false">To Do List</string>
+    <string name="app_key" translatable="false">com.ivandev.todolist.key</string>
+    <string name="shared_prefs" translatable="false">com.ivandev.todolist</string>
+    <string name="tasks_preference" translatable="false">com.ivandev.todolist.tasks_preference</string>
+    <string name="tasks_preference_key" translatable="false">com.ivandev.todolist.tasks_preference_key</string>
+    <string name="intent_notification_times" translatable="false">com.ivandev.todolist.intent_notification_times</string>
+    <string name="notification_preferences" translatable="false">com.ivandev.todolist.notification_preferences</string>
+    <string name="notification_times" translatable="false">com.ivandev.todolist.notification_times</string>
+    <string name="notification_title" translatable="false">Notification title</string>
+    <string name="notification_message" translatable="false">Notification message</string>
+    <string name="user_key" translatable="false">User key</string>
+    <string name="task_key" translatable="false">Task key</string>
+    <string name="task_name" translatable="false">Task name</string>
+    <string name="task_date" translatable="false">Task date</string>
+    <string name="task_ampm" translatable="false">Task ampm</string>
+    <string name="task_notify" translatable="false">Task notify</string>
+    <string name="channel_id" translatable="false">Channel id</string>
+    <string name="channel_name" translatable="false">Channel name</string>
+
+
+    <string name="tab_text_1">Today</string>
+    <string name="tab_text_2">Tomorrow</string>
+    <string name="tab_text_3">Others</string>
+    <string name="blank_fragment">Nothing to do</string>
+    <string name="new_task">New Task</string>
+    <string name="what_to_do">What to do?</string>
+    <string name="input_task_name">Task name</string>
+    <string name="select_date">Task date</string>
+    <string name="select_time">Task time</string>
+    <string name="notify_me">Notify me</string>
+    <string name="create_task">Create task</string>
+    <string name="error_params">Fields are missing to complete</string>
+    <string name="task_detail">Task</string>
+    <string name="question_eliminate_task">Are you sure you want to delete the task?</string>
+    <string name="accept_query">Accept</string>
+    <string name="cancel_query">Cancel</string>
+    <string name="wrong_time">Wrong time</string>
+    <string name="no_tasks_selected">No tasks selected</string>
+    <string name="no_tasks_to_search">No tasks to search</string>
+    <string name="notification_description_1">¡Task to do now!</string>
+    <string name="notification_description_2">New task to do now</string>
+    <string name="nothing_to_do_icon">Nothing to do icon</string>
+    <string name="no_tasks_found">No tasks found</string>
+    <string name="error_message">An error has occurred</string>
+</resources>
