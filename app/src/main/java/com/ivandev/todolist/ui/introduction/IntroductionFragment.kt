@@ -250,8 +250,10 @@ class IntroductionFragment : Fragment(), ISearchable {
                     setSelectedItems(0)
                     viewModel.actionMode = null
                     taskListToDelete = null
-                    if(filteredList != null) {
-                        filteredList = null
+                    if(!isActionSearchExpanded()) {
+                        if(filteredList != null) {
+                            filteredList = null
+                        }
                     }
                     setUserTaskSelectedFieldTo(taskList, false)
                     updateViewHolderItemTo(false)
@@ -364,6 +366,14 @@ class IntroductionFragment : Fragment(), ISearchable {
         } else {
             setSelectedItemsInActionMode(filteredList!!.size)
         }
+    }
+
+    private fun isActionSearchExpanded(): Boolean {
+        val activity = activity
+        if (activity is IntroductionActivity) {
+            return activity.isActionSearchExpanded()
+        }
+        return false
     }
 
     override fun performSearch(query: String) {
