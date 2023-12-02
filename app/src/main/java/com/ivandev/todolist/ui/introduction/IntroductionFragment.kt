@@ -21,7 +21,6 @@ import com.ivandev.todolist.domain.UserTask
 import kotlinx.coroutines.launch
 import java.util.*
 
-
 class IntroductionFragment : Fragment(), ISearchable {
     private lateinit var binding: FragmentIntroductionBinding
     private lateinit var adapter: UserTaskAdapter
